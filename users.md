@@ -15,3 +15,12 @@ Creates a new user.
 | 200 | Success |
 | 404 | User Not Found |
 | 500 | Internal Server Error |
+
+## Example Response
+
+```json
+{
+  "id": 101,
+  "name": "John Doe",
+  "email": "john@example.com"
+}
